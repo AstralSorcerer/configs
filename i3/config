@@ -36,6 +36,9 @@ floating_modifier Mod4
 # start a terminal
 bindsym Mod4+t exec i3-sensible-terminal
 
+# start Firefox
+bindsym Mod4+b exec firefox
+
 # kill focused window
 bindsym Mod4+q kill
 
