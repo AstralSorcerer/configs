@@ -134,7 +134,7 @@ bindsym Mod4+Shift+i move container to workspace irc
 bindsym Mod4+Shift+p move container to workspace TS
 
 # Lock screen
-bindsym Mod4+l exec dm-tool lock
+bindsym Mod4+l exec xscreensaver-command -lock
 
 # Default workspaces for some apps
 assign [class="^Thunderbird$"] mail
