@@ -2,9 +2,5 @@
 
 # Script run by display manager at login
 
-# Set up environment variables
-export PATH="$HOME/usr/bin${PATH:+:}$PATH"
-export SSH_AUTH_SOCK="$XDG_RUNTIME_DIR/ssh-agent.socket"
-
 # Initialize XScreenSaver
 xscreensaver &
