@@ -1,0 +1,8 @@
+# Zsh init script
+
+RCPATH=$(dirname $(realpath ${ZDOTDIR:-$HOME}/.zshrc))
+
+for file in $RCPATH/**/*.zsh
+do
+    source $file
+done
