@@ -11,6 +11,10 @@ alias ga='git add'
 alias ga.='git add .'
 alias gb='git branch'
 alias gco='git checkout'
+alias gp='git push'
+alias gf='git fetch'
+alias gm='git merge'
+alias gfm='git pull'
 
 ## Prompt
 function git_prompt_status() {
