@@ -82,6 +82,8 @@ bka '^?' backward-delete-word
 bka '\em' man
 bka '\es' sudo
 #bka '\et' le_test
+bka -s '\e[200~' ''
+bka -s '\e[201~' ''
 
 ## Completion
 bka '^I' expand-or-complete
