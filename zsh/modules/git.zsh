@@ -15,6 +15,8 @@ alias gp='git push'
 alias gf='git fetch'
 alias gm='git merge'
 alias gfm='git pull'
+alias gd='git diff'
+alias gdc='git diff --cached'
 
 ## Prompt
 function git_prompt_status() {
