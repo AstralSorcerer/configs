@@ -22,7 +22,7 @@ alias gds='git diff --cached'
 ## Prompt
 function git_prompt_status() {
     local mods color
-    if mods=$(git status -z 2>/dev/null)
+    if mods=$(git status -z --ignore-submodules 2>/dev/null)
     then
         if [[ -z $mods ]]
         then
