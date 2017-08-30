@@ -1,0 +1,12 @@
+[submodule "vim/pathogen"]
+	path = vim/pathogen
+	url = https://github.com/tpope/vim-pathogen.git
+[submodule "vim/vimfiles/bundle/gitgutter"]
+	path = vim/vimfiles/bundle/gitgutter
+	url = https://github.com/airblade/vim-gitgutter.git
+[submodule "vim/vimfiles/bundle/rust.vim"]
+	path = vim/vimfiles/bundle/rust.vim
+	url = git@github.com:rust-lang/rust.vim.git
+[submodule "vim/vimfiles/bundle/nerdcommenter"]
+	path = vim/vimfiles/bundle/nerdcommenter
+	url = git@github.com:scrooloose/nerdcommenter.git

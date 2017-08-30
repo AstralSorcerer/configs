@@ -3,5 +3,6 @@
 !i3/
 !i3status/
 !systemd/
+!vim/
 !X/
 !zsh/
