@@ -1,0 +1,33 @@
+// Dvorak international with dead keys on AltGr/Level 3 Shift
+// Colin Pronovost (colin.pron@live.com)
+// Based on dvorak-intl by Olivier Mehani (shtrom-xorg@ssji.net)
+partial alphanumeric_keys
+xkb_symbols "basic" {
+
+    include "us(dvorak-intl)"
+    name[Group1]= "English (Dvorak, international with dead keys on AltGr/Level 3 Shift)";
+
+    key <AE01> { [            1,      exclam,          onesuperior,       exclamdown ] };
+    key <AE02> { [            2,          at,          twosuperior, dead_doubleacute ] };
+    key <AE03> { [            3,  numbersign,        threesuperior,      dead_macron ] };
+    key <AE04> { [            4,      dollar,             currency,         sterling ] };
+    key <AE05> { [            5,     percent,             EuroSign,     dead_cedilla ] };
+    key <AE06> { [            6, asciicircum,           onequarter,  dead_circumflex ] };
+    key <AE07> { [            7,   ampersand,              onehalf,        dead_horn ] };
+    key <AE08> { [            8,    asterisk,        threequarters,      dead_ogonek ] };
+    key <AE09> { [            9,   parenleft,  leftsinglequotemark,       dead_breve ] };
+    key <AE10> { [            0,  parenright, rightsinglequotemark,   dead_abovering ] };
+
+    key <AE11> { [  bracketleft,   braceleft,  leftdoublequotemark,    guillemotleft ] };
+    key <AE12> { [ bracketright,  braceright, rightdoublequotemark,   guillemotright ] };
+    key <AD01> { [   apostrophe,    quotedbl,           dead_acute,   dead_diaeresis ] };
+    key <AD12> { [        equal,        plus,             multiply,         division ] };
+    key <AC11> { [        minus,  underscore,                  yen,    dead_belowdot ] };
+    key <AB01> { [    semicolon,       colon,            paragraph,           degree ] };
+    key <BKSL> { [    backslash,         bar,              notsign,        brokenbar ] };
+    key <TLDE> { [        grave,  asciitilde,           dead_grave,       dead_tilde ] };
+
+    key <AD06> { [            f,           F,           odiaeresis,       Odiaeresis ] };
+    key <AD07> { [            g,           G,           dead_greek                   ] };
+    key <AD04> { [            p,           P,             Greek_pi,         Greek_PI ] };
+};
