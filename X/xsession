@@ -7,3 +7,7 @@ xkbcomp -I$HOME/.xkb ~/.xkb/keymap/custom $DISPLAY
 
 # Initialize XScreenSaver
 xscreensaver &
+
+# Run mail client and IRC client
+thunderbird &
+hexchat &
