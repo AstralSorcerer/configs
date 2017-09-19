@@ -10,3 +10,6 @@
 [submodule "vim/vimfiles/bundle/nerdcommenter"]
 	path = vim/vimfiles/bundle/nerdcommenter
 	url = git@github.com:scrooloose/nerdcommenter.git
+[submodule "vim/vimfiles/bundle/lh-vim-lib"]
+	path = vim/vimfiles/bundle/lh-vim-lib
+	url = git@github.com:LucHermitte/lh-vim-lib.git
