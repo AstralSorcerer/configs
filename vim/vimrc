@@ -10,7 +10,7 @@ syntax on
 set omnifunc=syntaxcomplete#Complete
 let g:syntastic_java_javac_config_file_enabled = 1
 
-nnoremap m :make<CR>
+nnoremap m :make!<CR>
 
 "set spell spelllang=en_us " TODO: enable this without it being a nuisance
 
