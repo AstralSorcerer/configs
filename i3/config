@@ -136,6 +136,12 @@ bindsym Mod4+Shift+m move container to workspace mail
 bindsym Mod4+Shift+i move container to workspace irc
 bindsym Mod4+Shift+p move container to workspace TS
 
+# Move workspace to monitor
+bindsym Mod4+Mod1+$left move workspace to output left
+bindsym Mod4+Mod1+Left move workspace to output left
+bindsym Mod4+Mod1+$right move workspace to output right
+bindsym Mod4+Mod1+Right move workspace to output right
+
 # Lock screen
 bindsym Mod4+l exec xscreensaver-command -lock
 
