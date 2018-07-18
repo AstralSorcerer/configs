@@ -5,8 +5,11 @@ set updatetime=500
 set softtabstop=4
 set expandtab
 set shiftwidth=4
+
 filetype plugin on
 syntax on
+
+set foldlevelstart=2
 set omnifunc=syntaxcomplete#Complete
 let g:syntastic_java_javac_config_file_enabled = 1
 
@@ -31,3 +34,5 @@ endfunction
 
 autocmd FileType tex call SetLatexMakePrg()
 autocmd FileType tex set autowrite
+
+let g:rust_fold = 2
